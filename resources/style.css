@@ -62,6 +62,9 @@ p{
     font-weight: bold;
     font-family: "Karla", sans-serif;
 }
+#generate-password-btn:hover{
+    box-shadow: 3px 3px white;
+}
 
 .password-suggest{
     display: flex;
