@@ -11,8 +11,8 @@ let passwordTwo = ""
 function generatePassword(){
    passwordOne = " "
     passwordTwo= " "
-    for (let i =0; i< 15; i++){
-     let passwordOneRandom = Math.floor(Math.random() * characters.length)
+    for (let i =0; i<15; i++){
+        let passwordOneRandom = Math.floor(Math.random() * characters.length)
         let passwordTwoRandom = Math.floor(Math.random()* characters.length)
         passwordOne += characters[passwordOneRandom]
         passwordTwo += characters[passwordTwoRandom]

@@ -1,5 +1,8 @@
+html{
+    font-size: 16px;
+}
 html, body {
-    height: 50%;
+    /* height: 50%; */
     margin: 0;
     display: flex;
     justify-content: center;
@@ -12,8 +15,9 @@ body {
 
 .container {
     background-color: #1F2937;
-    width: 550px;
-    height: 100px;
+    width: 34.375em;
+    height: 6.25em;
+
 }
 
 .container-content {
@@ -27,7 +31,7 @@ body {
 
 .heading-gen{
     color: white;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -46,19 +50,19 @@ color: #4ADF86;
 }
 p{
     color: #D5D4D8;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Inter", sans-serif;
 }
 
 #generate-password-btn{
     color: white;
     background-color: #10B981;
-    padding: 10px 20px 10px 20px;
+    padding: 0.625em 1.25em 0.625em 1.25em;
     border-radius:6px ;
     border: none;
     display: block;
-    margin: 0 0 30px 0;
-    font-size: 20px;
+    margin: 0 0 1.875em 0;
+    font-size: 1.25rem;
     font-weight: bold;
     font-family: "Karla", sans-serif;
 }
@@ -76,8 +80,8 @@ p{
 .password-suggest p{
 
     background-color:#273549;
-    padding: 10px 20px 10px 20px;
+    padding: 0.625em 1.25em 0.625em 1.25em;
     color: #4ADF86;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 1rem;
 }
