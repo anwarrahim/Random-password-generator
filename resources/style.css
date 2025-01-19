@@ -2,7 +2,7 @@ html{
     font-size: 16px;
 }
 html, body {
-    /* height: 50%; */
+    height: 50%;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -84,4 +84,39 @@ p{
     color: #4ADF86;
     border-radius: 4px;
     font-size: 1rem;
+}
+
+/* input checkbox css */
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    appearance: none;
+    border: 2px solid white ;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    transition: .3s;
+    outline: none;
+    position: relative;
+}
+
+
+input[type= "checkbox"]::before{
+    content: "";
+    width: 34px;
+    height: 34px;
+    background-color: #fcfcfc;
+    position: absolute;
+    border-radius: 50%;
+    top: 1px;
+    left: 2px;
+    transition: .3s ease;
+}
+
+input[type= "checkbox"]:checked:before{
+    transform: translateX(60px);
+    background: #10B981;
+}
+
+input[type="checkbox"]:checked{
+    border-color: #10B981;
 }
