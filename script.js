@@ -40,3 +40,15 @@ function generatePassword(){
     passwordTwoSuggestion.textContent = passwordTwo
    
 }
+
+ document.getElementById('password-one').addEventListener('click', ()=>{
+    const passwordOneSaved = document.getElementById('password-one').textContent
+    navigator.clipboard.writeText(passwordOneSaved)
+    alert('Password has copied')
+})
+
+document.getElementById('password-two').addEventListener('click', ()=>{
+    const passwordTwoSaved = document.getElementById('password-two').textContent
+    navigator.clipboard.writeText(passwordTwoSaved)
+    alert('Password has copied')
+})

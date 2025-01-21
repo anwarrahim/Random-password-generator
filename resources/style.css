@@ -72,6 +72,7 @@ label{
     font-size: 1.25rem;
     font-weight: bold;
     font-family: "Karla", sans-serif;
+    cursor: pointer;
 }
 #generate-password-btn:hover{
     box-shadow: 3px 3px white;
@@ -82,6 +83,7 @@ label{
     justify-content: center;
     flex-direction: row;
     column-gap: 20px;
+    cursor: pointer;
 }
 
 .password-suggest p{
