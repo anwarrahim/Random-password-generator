@@ -14,20 +14,6 @@ let passwordOne = ""
 let passwordTwo = ""
 
 
-function passwordWithNum(){
-    // return console.log(checkboxNum.checked)
-    if (checkboxNum.checked){
-        generatePassword()
-    }
-    else{
-
-    }
-}
-passwordWithNum()
-
-function passwordWithoutNum(){
-    
-}
 
 function generatePassword(){
    passwordOne = " "
