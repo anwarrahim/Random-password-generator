@@ -48,10 +48,17 @@ body {
 .heading-gen span{
 color: #4ADF86;
 }
+
 p{
     color: #D5D4D8;
     font-size: 1.25rem;
     font-family: "Inter", sans-serif;
+}
+
+label{
+    color: #D5D4D8;
+    font-size: 1.25rem;
+    margin-bottom: 0.5em;
 }
 
 #generate-password-btn{
