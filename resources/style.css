@@ -26,7 +26,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: #ffffff 3px solid;
+    /* border: #ffffff 3px solid; */
     border-radius: 3px;
 
 }
